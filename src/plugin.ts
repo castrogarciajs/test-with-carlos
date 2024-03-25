@@ -17,6 +17,7 @@ const config = {
             background: "hsl(var(--background))",
             foreground: "hsl(var(--foreground))",
             warn: "hsl(var(--warn))",
+            success: "hsl(var(--success))",
             primary: {
               DEFAULT: "hsl(var(--primary))",
               foreground: "hsl(var(--primary-foreground))",
@@ -79,6 +80,7 @@ export const desingSystem = createPlugin(
                 "--card-foreground": "0 0% 3.9%",
                 "--popover": "0 0% 100%",
                 "--popover-foreground": "0 0% 3.9%",
+                "--success": "138 100 50",
                 "--primary": "0 0% 9%",
                 "--warn": "38 92% 50%",
                 "--primary-foreground": "0 0% 98%",

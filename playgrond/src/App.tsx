@@ -9,13 +9,16 @@ function App() {
 
   return (
     <>
-    <Button variant="destructive">
+    <Button variant="primary" onClick={() => alert('Hi')}>
       Hola akjdkasljdka
     </Button>
     <Button variant="destructive">
       Hola akjdkasljdka
     </Button>
     <Button variant="warn">
+      Hola akjdkasljdka
+    </Button>
+    <Button variant="success">
       Hola akjdkasljdka
     </Button>
       <div className='bg-black'>

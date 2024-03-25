@@ -51,7 +51,7 @@ var buttonVariants = cva(
         outline: "border border-input bg-background hover:bg-accent hover:text-accent-foreground",
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         warn: "hover:bg-warn hover:text-accent-foreground",
-        link: "text-primary underline-offset-4 hover:underline"
+        success: "text-white bg-success"
       },
       size: {
         default: "h-10 px-4 py-2",
@@ -100,6 +100,7 @@ var config = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         warn: "hsl(var(--warn))",
+        success: "hsl(var(--success))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))"
@@ -161,6 +162,7 @@ var desingSystem = createPlugin(
         "--card-foreground": "0 0% 3.9%",
         "--popover": "0 0% 100%",
         "--popover-foreground": "0 0% 3.9%",
+        "--success": "138 100 50",
         "--primary": "0 0% 9%",
         "--warn": "38 92% 50%",
         "--primary-foreground": "0 0% 98%",

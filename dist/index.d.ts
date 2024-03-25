@@ -4,7 +4,7 @@ import { VariantProps } from 'class-variance-authority';
 import * as tailwindcss_types_config from 'tailwindcss/types/config';
 
 declare const buttonVariants: (props?: ({
-    variant?: "default" | "destructive" | "outline" | "secondary" | "warn" | "link" | null | undefined;
+    variant?: "default" | "destructive" | "outline" | "secondary" | "warn" | "success" | null | undefined;
     size?: "default" | "sm" | "lg" | "icon" | null | undefined;
 } & class_variance_authority_dist_types.ClassProp) | undefined) => string;
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement>, VariantProps<typeof buttonVariants> {
